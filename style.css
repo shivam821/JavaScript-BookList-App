@@ -10,3 +10,9 @@
 body {
   min-height: 100vh;
 }
+
+.btn {
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}

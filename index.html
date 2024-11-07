@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://bootswatch.com/5/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Booklist App JavaScript</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
                 <input type="text" id="bookId" class="form-control">
             </div>
 
-            <input type="submit" value="Add Book" class="btn btn-primary btn-block" style="margin-bottom: 1rem;">
+            <input type="submit" id="addBook" value="Add Book" class="btn btn-primary btn-block" style="margin-bottom: 1rem; width: 100%;">
         </form>
 
         <table class="table table-striped">
@@ -38,8 +39,8 @@
                     <th>Book Author</th>
                     <th>Book ID</th>
                 </tr>
-                <thead></thead>
             </thead>
+            <tbody id="book-list"></tbody>
         </table>
     </div>
 
@@ -48,3 +49,4 @@
     
 </body>
 </html>
+
