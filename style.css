@@ -11,8 +11,12 @@ body {
   min-height: 100vh;
 }
 
-.btn {
+.removeBook {
   border-radius: 3px;
   justify-content: center;
   align-items: center;
+  background-color: red;
+  padding: 5px 8px;
+  text-decoration: none;
+  color: white;
 }
